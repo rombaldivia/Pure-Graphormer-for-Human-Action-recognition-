@@ -1,19 +1,19 @@
-# Graphormer-Spatial 🦾 — HAR sobre NTU-RGB-D-120
+# Graphormer-Spatial  — HAR about NTU-RGB-D-120
 A pure Graphormer implementation for Human Action Recognition (HAR) from 3-D skeletons.Trains with PyTorch ≥ 2.1 and runs on CPU, GPU or Jetson (ONNX / TensorRT).
 
-<div align="center">
-  <img src="docs/figures/pipeline.svg" width="620" alt="Pipeline">
-</div>
 
 ---
 
-## ✨ Características
-- **Token Dropout** y **unfreezing progresivo** listos para CLI.
-- Reanuda checkpoints → `--resume best_graphormer.pth`.
-- Hot-reload de LR vía `hyper_lr.txt` sin reiniciar el entrenamiento.
-- Confusion matrix y curva de pérdidas en `./metrics/`.
-- Split 70 / 20 / 10 estratificado con el script `tools/split_ntu.py`.
-- Compatible con multi-GPU (`DataParallel`) y mixed-precision (AMP).
-
-## Requisitos
-```bash
+## Advantages
+  
+-  Token Dropout and progressive unfreezing exposed through the CLI.
+  
+-  Resume from any checkpoint with --resume best_graphormer.pth.
+  
+-  Live LR hot-reload via hyper_lr.txt — no need to restart training.
+  
+-  Automatic confusion matrix and loss curves saved under ./metrics/.
+  
+-  Stratified 70 / 20 / 10 split helper in tools/split_ntu.py.
+  
+-  Multi-GPU support (DataParallel) and AMP mixed-precision ready.
