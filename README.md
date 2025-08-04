@@ -1,5 +1,5 @@
 # Graphormer-Spatial  — HAR about NTU-RGB-D-120
-A pure Graphormer implementation for Human Action Recognition (HAR) from 3-D skeletons.Trains with PyTorch ≥ 2.1 and runs on CPU, GPU or Jetson (ONNX / TensorRT).
+A pure Graphormer implementation for Human Action Recognition (HAR) from 3-D skeletons.Trains with PyTorch ≥ 2.1 and runs on CPU, GPU.
 
 
 ---
